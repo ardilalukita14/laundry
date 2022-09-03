@@ -1,0 +1,16 @@
+<td><?php echo $row->Password; ?></td> --> kodingan ini berada di admin dashboard / user dashboard
+
+<th>Nomor Telp. </th> --> kodingan ini berada di admin dashboard / user dashboard
+
+Potongan Kode di index.php
+
+and Phone_No='".$Phone_No."'   --> line nomor 7
+
+'".$Phone_No."', --? line nomor 14
+
+Catatan Kodingan pada order_model.php pada line 40
+
+<select id="Laundry_Price<?php echo $Order_Id?>" class="form-control" >
+                  <option value="<?php echo $Data->Laundry_Price; ?>">Ya</option>
+                  <option value="0">Tidak</option>
+                </select>
